@@ -5,7 +5,7 @@ using UnityEngine;
 public class DancingMotion : MonoBehaviour
 {
     Animator anim;                              //animator
-    AudioSource sound;                          //audio source
+    public AudioSource sound;                          //audio source
 
     // Start is called before the first frame update
     void Start()
