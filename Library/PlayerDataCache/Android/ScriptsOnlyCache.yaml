@@ -88,13 +88,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11080}
     - Class: 114
-      Script: {instanceID: 11304}
+      Script: {instanceID: 11290}
     - Class: 114
-      Script: {instanceID: 11452}
+      Script: {instanceID: 11306}
     - Class: 114
-      Script: {instanceID: 11724}
+      Script: {instanceID: 11454}
     - Class: 114
-      Script: {instanceID: 19960}
+      Script: {instanceID: 11726}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -189,9 +189,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11246}
     - Class: 114
-      Script: {instanceID: 11304}
+      Script: {instanceID: 11306}
     - Class: 114
-      Script: {instanceID: 11724}
+      Script: {instanceID: 11726}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -379,7 +379,7 @@ ScriptsOnlyBuild:
     className: Shadow
   - hash:
       serializedVersion: 2
-      Hash: 8d6523832f16229e4972f3a39f62875f
+      Hash: 40184c1e6a446aee55044a27dd9857cd
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIController
@@ -919,7 +919,7 @@ ScriptsOnlyBuild:
     className: TimelineAsset
   - hash:
       serializedVersion: 2
-      Hash: 7ece9b8b30afab8eb358d86edb9f55c5
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DancingMotion
@@ -935,6 +935,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Interaction
   - hash:
       serializedVersion: 2
       Hash: f336e086360abe49a3323e5f1583c35a
@@ -1451,14 +1457,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Interaction
   platform: 13
   scenePathNames:
   - Assets/Scenes/Scene01_main.unity
   - Assets/Scenes/Scene02_AR.unity
-  playerPath: C:/Git2/dancing_ar/DancingAR/Builds/test01.apk
+  playerPath: C:/Git2/dancing_ar/DancingAR/Builds/DancingAR.apk

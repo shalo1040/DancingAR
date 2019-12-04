@@ -529,8 +529,8 @@ GameObject:
   - component: {fileID: 1021839117}
   - component: {fileID: 1021839116}
   - component: {fileID: 1021839115}
-  - component: {fileID: 1021839119}
   - component: {fileID: 1021839120}
+  - component: {fileID: 1021839119}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -632,7 +632,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68740ec4a1066544b84ff6a3a62463e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isToggleOn: 0
+  view: {fileID: 0}
   soundImg: []
+  toggle: {fileID: 0}
 --- !u!114 &1021839120
 MonoBehaviour:
   m_ObjectHideFlags: 0
