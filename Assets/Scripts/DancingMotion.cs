@@ -1,23 +1,15 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class DancingMotion : MonoBehaviour
 {
     Animator anim;                              //animator
-    public AudioSource sound;                          //audio source
+    public static AudioSource sound;                          //audio source
 
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();        //animator 불러옴
         sound = GetComponent<AudioSource>();    //audio source 불러옴
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 
     void OnTriggerEnter(Collider col)           //collider 감지
